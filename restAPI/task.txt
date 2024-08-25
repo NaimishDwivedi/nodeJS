@@ -1,0 +1,6 @@
+//We are creating ta rest api whose response will be a json
+
+// Get /user = list all the user
+// Get /user/1 = get user with id= 1
+
+//and same for all the operations
