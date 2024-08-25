@@ -7,6 +7,11 @@ PORT = 8000;
 //since express does not know the type of data it is recieving, so if we dont use the middleware, the body in the post request will return undefined, so it is necessary to use a middleware
 //when any form data will come the urlencoded will put that form data in the body
 
+
+
+
+
+
 app.use(express.urlencoded({ extended: false }));
 
 //creating my own middleware
